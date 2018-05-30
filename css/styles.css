@@ -1,14 +1,50 @@
-#zoot-shown {
-  display: none;
+/*****************/
+/* body styling */
+/***************/
+
+.style1 {
+  background-color: green;
+  color: white;
 }
 
-#extra-zoot {
-  display: none;
+.style2 {
+  background-color: purple;
+  color: white;
 }
 
-#more-zoot-parent {
-  display: none;
+.styleC {
+
 }
+
+/*******************/
+/* button styling */
+/*****************/
+
+#display1 {
+background-color: blue;
+color: white;
+}
+
+#display1:hover {
+  cursor: pointer;
+}
+
+#display2 {
+background-color: purple;
+color: white;
+}
+
+#display2:hover {
+  cursor: pointer;
+}
+
+#displayC:hover {
+  cursor: pointer;
+}
+
+/*******************/
+/* clickable text */
+/*****************/
 
 .clickable {
 color: #0088cc;
@@ -37,6 +73,18 @@ color: red;
   cursor: pointer;
 }
 
-#extra-zoot.img {
-  height: 300px;
+/*******************************/
+/* sections that start hidden */
+/*****************************/
+
+#zoot-shown {
+  display: none;
+}
+
+#extra-zoot {
+  display: none;
+}
+
+#more-zoot-parent {
+  display: none;
 }
