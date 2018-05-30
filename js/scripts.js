@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+$("#paragraph1").click(function(){
+  $("#paragraph1").toggleClass("para-highlight")
+})
+
+$("#paragraph2").click(function(){
+  $("#paragraph2").toggleClass("para-highlight")
+})
+
 $(".clickable").click(function() {
   $("#zoot-hidden").toggle();
   $("#zoot-shown").toggle();

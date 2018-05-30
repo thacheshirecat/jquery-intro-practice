@@ -51,6 +51,19 @@ color: black;
 /* clickable text */
 /*****************/
 
+#paragraph1 {
+  margin: 5px;
+}
+
+#paragraph2 {
+  margin: 5px;
+}
+
+.para-highlight {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
 .clickable {
 color: #0088cc;
 }
