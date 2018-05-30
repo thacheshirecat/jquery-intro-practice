@@ -1,0 +1,42 @@
+#zoot-shown {
+  display: none;
+}
+
+#extra-zoot {
+  display: none;
+}
+
+#more-zoot-parent {
+  display: none;
+}
+
+.clickable {
+color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#more-zoot {
+color: #0088cc;
+}
+
+#more-zoot:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#no-more-zoot {
+color: red;
+}
+
+#no-more-zoot:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#extra-zoot.img {
+  height: 300px;
+}
