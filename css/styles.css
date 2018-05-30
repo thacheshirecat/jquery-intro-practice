@@ -21,7 +21,7 @@
 /*****************/
 
 #display1 {
-background-color: blue;
+background-color: green;
 color: white;
 }
 
@@ -36,6 +36,11 @@ color: white;
 
 #display2:hover {
   cursor: pointer;
+}
+
+#displayC {
+background-color: lightgray;
+color: black;
 }
 
 #displayC:hover {
